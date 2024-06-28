@@ -12,6 +12,7 @@ function App() {
     <>
       <BrowserRouter>
         <Header />
+        <br />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/inicio' element={<Home />} />

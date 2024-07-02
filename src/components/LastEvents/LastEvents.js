@@ -7,7 +7,7 @@ export default function LastEvents({ lastEventsFetch }) {
     if (loading || !result)
         return (
             <Dimmer active inverted>
-                <Loader inverted>Loading</Loader>
+                <Loader inverted>Cargando...</Loader>
             </Dimmer>
         );
 
